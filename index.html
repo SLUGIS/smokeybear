@@ -10,10 +10,10 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/index.css">
 
-    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="index.js"></script>
   </head>
-  
+
   <body onload="init()">
       <h1>Adjective Fire Danger</h1>
       <div id="navigation" style="clear:both; width:100%;">
@@ -25,31 +25,23 @@
             <a class="btn btn-default btn-default navbar-btn" href="http://slocountyfire.org/intelreport/"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;Intel Report</a>
           </ul>
       </div>
-      <div id="threestations" style="clear:both; width: 100%;">
-        <div id="div_lt" class="onethird">
-          <h2>Coastal Valley</h2>
-          <img id="smokeyLT" class="smokey" src="./img/low.png"/>
-          <h3>Arroyo Grande</h3>
-          <p id="ltstatus" class="specialnotes"></p>
-        </div>
-        <div id="div_lp" class="onethird">
-          <h2>Inland Valley</h2>
-          <img id="smokeyLP" class="smokey" src="./img/low.png"/>
-          <h3>La Panza</h3>
-          <p id="lpstatus" class="specialnotes"></p>
-        </div>
-        <div id="div_ag" class="onethird">
-          <h2>Coastal Range</h2>
-          <img id="smokeyAG" class="smokey" src="./img/low.png"/>
-          <h3>Las Tablas</h3>
-          <p id="agstatus" class="specialnotes"></p>
-        </div>
-        <div id="div_slc" class="onethird">
-          <h2>San Luis Coast</h2>
-          <img id="smokeySLC" class="smokey" src="./img/low.png"/>
-          <h3>San Simeon</h3>
-          <p id="slcstatus" class="specialnotes"></p>
-        </div>
+
+      <div id="div_selection_box">
+        <select id="zone_selection" onchange="updateSmokey();">
+          <option value="AG" selected="selected">Coastal Valley</option>
+          <option value="LP" >Inland Valley</option>
+          <option value="LT">Coastal Range</option>
+          <option value="SLC">San Luis Coast</option>
+        </select>
+      </div>
+
+      <div id="threestations" style="clear:both; width: 100%">
+          <div id="selected_div" class="onethird">
+            <h2 id="selected_area">Coastal Valley</h2>
+            <img id="smokey" class="smokey" src="./img/low.png" />
+            <h3 id="selected_city">Arroyo Grande</h3>
+            <p id="update_status" class="specialnotes">timestamp</p>
+          </div>
       </div>
 
       <div style="clear:both; text-align:center; display:block; width:100%;">
