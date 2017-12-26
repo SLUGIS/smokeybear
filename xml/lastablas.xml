@@ -4,7 +4,7 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/25/2017</nfdr_dt>
+<nfdr_dt>12/26/2017</nfdr_dt>
 <nfdr_tm>1</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>1</mp>
@@ -17,7 +17,7 @@
 <ic>0</ic>
 <kbdi>712</kbdi>
 <sc>4</sc>
-<ec>32</ec>
+<ec>33</ec>
 <bi>29</bi>
 <sl>1 </sl>
 <lr>0</lr>
@@ -34,20 +34,20 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/25/2017</nfdr_dt>
+<nfdr_dt>12/26/2017</nfdr_dt>
 <nfdr_tm>7</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>1</mp>
 <msgc>7G3A2</msgc>
 <one_hr>19</one_hr>
-<ten_hr>13</ten_hr>
+<ten_hr>14</ten_hr>
 <hu_hr>13</hu_hr>
 <th_hr>16</th_hr>
 <xh_hr>16</xh_hr>
 <ic>0</ic>
 <kbdi>712</kbdi>
 <sc>4</sc>
-<ec>30</ec>
+<ec>31</ec>
 <bi>26</bi>
 <sl>1 </sl>
 <lr>0</lr>
@@ -64,27 +64,27 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/25/2017</nfdr_dt>
+<nfdr_dt>12/26/2017</nfdr_dt>
 <nfdr_tm>9</nfdr_tm>
 <nfdr_type>S</nfdr_type>
 <mp>1</mp>
 <msgc>7G3A2</msgc>
 <one_hr>9</one_hr>
-<ten_hr>10</ten_hr>
-<hu_hr>13</hu_hr>
-<th_hr>16</th_hr>
-<xh_hr>16</xh_hr>
-<ic>9</ic>
+<ten_hr>9</ten_hr>
+<hu_hr>12</hu_hr>
+<th_hr>15</th_hr>
+<xh_hr>15</xh_hr>
+<ic>11</ic>
 <kbdi>749</kbdi>
 <sc>5</sc>
-<ec>38</ec>
-<bi>35</bi>
+<ec>40</ec>
+<bi>36</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>25</fl>
+<fl>26</fl>
 <hrb>9</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
@@ -94,13 +94,13 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/25/2017</nfdr_dt>
+<nfdr_dt>12/26/2017</nfdr_dt>
 <nfdr_tm>7</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>2</mp>
 <msgc>7A3A2</msgc>
 <one_hr>19</one_hr>
-<ten_hr>13</ten_hr>
+<ten_hr>14</ten_hr>
 <hu_hr>13</hu_hr>
 <th_hr>16</th_hr>
 <xh_hr>16</xh_hr>
@@ -124,7 +124,7 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/25/2017</nfdr_dt>
+<nfdr_dt>12/26/2017</nfdr_dt>
 <nfdr_tm>1</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>2</mp>
@@ -154,19 +154,19 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/25/2017</nfdr_dt>
+<nfdr_dt>12/26/2017</nfdr_dt>
 <nfdr_tm>9</nfdr_tm>
 <nfdr_type>S</nfdr_type>
 <mp>2</mp>
 <msgc>7A3A2</msgc>
 <one_hr>9</one_hr>
-<ten_hr>10</ten_hr>
-<hu_hr>13</hu_hr>
-<th_hr>16</th_hr>
-<xh_hr>16</xh_hr>
-<ic>6</ic>
+<ten_hr>9</ten_hr>
+<hu_hr>12</hu_hr>
+<th_hr>15</th_hr>
+<xh_hr>15</xh_hr>
+<ic>7</ic>
 <kbdi>749</kbdi>
-<sc>24</sc>
+<sc>25</sc>
 <ec>1</ec>
 <bi>14</bi>
 <sl>1 </sl>
@@ -184,13 +184,13 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/25/2017</nfdr_dt>
+<nfdr_dt>12/26/2017</nfdr_dt>
 <nfdr_tm>7</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>3</mp>
 <msgc>7B3A2</msgc>
 <one_hr>19</one_hr>
-<ten_hr>13</ten_hr>
+<ten_hr>14</ten_hr>
 <hu_hr>13</hu_hr>
 <th_hr>16</th_hr>
 <xh_hr>16</xh_hr>
@@ -214,7 +214,7 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/25/2017</nfdr_dt>
+<nfdr_dt>12/26/2017</nfdr_dt>
 <nfdr_tm>1</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>3</mp>
@@ -244,21 +244,21 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/25/2017</nfdr_dt>
+<nfdr_dt>12/26/2017</nfdr_dt>
 <nfdr_tm>9</nfdr_tm>
 <nfdr_type>S</nfdr_type>
 <mp>3</mp>
 <msgc>7B3A2</msgc>
 <one_hr>9</one_hr>
-<ten_hr>10</ten_hr>
-<hu_hr>13</hu_hr>
-<th_hr>16</th_hr>
-<xh_hr>16</xh_hr>
-<ic>6</ic>
+<ten_hr>9</ten_hr>
+<hu_hr>12</hu_hr>
+<th_hr>15</th_hr>
+<xh_hr>15</xh_hr>
+<ic>7</ic>
 <kbdi>749</kbdi>
 <sc>4</sc>
-<ec>17</ec>
-<bi>22</bi>
+<ec>19</ec>
+<bi>23</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
@@ -274,28 +274,28 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>7</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>1</mp>
 <msgc>7G3A2</msgc>
-<one_hr>17</one_hr>
+<one_hr>19</one_hr>
 <ten_hr>13</ten_hr>
-<hu_hr>15</hu_hr>
+<hu_hr>13</hu_hr>
 <th_hr>16</th_hr>
 <xh_hr>16</xh_hr>
 <ic>0</ic>
 <kbdi>712</kbdi>
 <sc>4</sc>
 <ec>30</ec>
-<bi>27</bi>
+<bi>26</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>19</fl>
-<hrb>17</hrb>
+<fl>18</fl>
+<hrb>19</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
@@ -304,7 +304,7 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>13</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>1</mp>
@@ -317,7 +317,7 @@
 <ic>5</ic>
 <kbdi>712</kbdi>
 <sc>5</sc>
-<ec>36</ec>
+<ec>37</ec>
 <bi>34</bi>
 <sl>1 </sl>
 <lr>0</lr>
@@ -334,7 +334,7 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>19</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>1</mp>
@@ -347,8 +347,8 @@
 <ic>3</ic>
 <kbdi>712</kbdi>
 <sc>5</sc>
-<ec>35</ec>
-<bi>32</bi>
+<ec>36</ec>
+<bi>33</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
@@ -364,28 +364,28 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>1</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>1</mp>
 <msgc>7G3A2</msgc>
-<one_hr>15</one_hr>
+<one_hr>16</one_hr>
 <ten_hr>12</ten_hr>
-<hu_hr>15</hu_hr>
+<hu_hr>13</hu_hr>
 <th_hr>16</th_hr>
 <xh_hr>16</xh_hr>
-<ic>1</ic>
+<ic>0</ic>
 <kbdi>712</kbdi>
 <sc>4</sc>
-<ec>31</ec>
-<bi>28</bi>
+<ec>32</ec>
+<bi>29</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>20</fl>
-<hrb>15</hrb>
+<fl>21</fl>
+<hrb>16</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
@@ -394,7 +394,7 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>13</nfdr_tm>
 <nfdr_type>O</nfdr_type>
 <mp>1</mp>
@@ -404,48 +404,48 @@
 <hu_hr>13</hu_hr>
 <th_hr>16</th_hr>
 <xh_hr>16</xh_hr>
-<ic>27</ic>
+<ic>28</ic>
 <kbdi>749</kbdi>
 <sc>7</sc>
-<ec>41</ec>
-<bi>41</bi>
-<sl>1 </sl>
+<ec>42</ec>
+<bi>42</bi>
+<sl>4 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>29</fl>
+<fl>30</fl>
 <hrb>5</hrb>
 <wdy>60</wdy>
-<adj>L </adj>
+<adj>H </adj>
 </row>
 <row num="15">
 <sta_id>44904</sta_id>
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>9</nfdr_tm>
 <nfdr_type>S</nfdr_type>
 <mp>1</mp>
 <msgc>7G3A2</msgc>
-<one_hr>11</one_hr>
-<ten_hr>11</ten_hr>
+<one_hr>9</one_hr>
+<ten_hr>10</ten_hr>
 <hu_hr>13</hu_hr>
 <th_hr>16</th_hr>
 <xh_hr>16</xh_hr>
-<ic>6</ic>
+<ic>9</ic>
 <kbdi>749</kbdi>
 <sc>5</sc>
-<ec>36</ec>
-<bi>33</bi>
+<ec>38</ec>
+<bi>35</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>23</fl>
-<hrb>11</hrb>
+<fl>25</fl>
+<hrb>9</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
@@ -454,7 +454,7 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>19</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>2</mp>
@@ -464,11 +464,11 @@
 <hu_hr>13</hu_hr>
 <th_hr>16</th_hr>
 <xh_hr>16</xh_hr>
-<ic>1</ic>
+<ic>2</ic>
 <kbdi>712</kbdi>
-<sc>17</sc>
+<sc>18</sc>
 <ec>1</ec>
-<bi>8</bi>
+<bi>9</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
@@ -484,7 +484,7 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>13</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>2</mp>
@@ -514,14 +514,14 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>7</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>2</mp>
 <msgc>7A3A2</msgc>
-<one_hr>17</one_hr>
+<one_hr>19</one_hr>
 <ten_hr>13</ten_hr>
-<hu_hr>15</hu_hr>
+<hu_hr>13</hu_hr>
 <th_hr>16</th_hr>
 <xh_hr>16</xh_hr>
 <ic>0</ic>
@@ -535,7 +535,7 @@
 <hr/>0
       <ho>0</ho>
 <fl>0</fl>
-<hrb>17</hrb>
+<hrb>19</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
@@ -544,14 +544,14 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>1</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>2</mp>
 <msgc>7A3A2</msgc>
-<one_hr>15</one_hr>
+<one_hr>16</one_hr>
 <ten_hr>12</ten_hr>
-<hu_hr>15</hu_hr>
+<hu_hr>13</hu_hr>
 <th_hr>16</th_hr>
 <xh_hr>16</xh_hr>
 <ic>0</ic>
@@ -565,7 +565,7 @@
 <hr/>0
       <ho>0</ho>
 <fl>0</fl>
-<hrb>15</hrb>
+<hrb>16</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
@@ -574,7 +574,7 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>13</nfdr_tm>
 <nfdr_type>O</nfdr_type>
 <mp>2</mp>
@@ -604,28 +604,28 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>9</nfdr_tm>
 <nfdr_type>S</nfdr_type>
 <mp>2</mp>
 <msgc>7A3A2</msgc>
-<one_hr>11</one_hr>
-<ten_hr>11</ten_hr>
+<one_hr>9</one_hr>
+<ten_hr>10</ten_hr>
 <hu_hr>13</hu_hr>
 <th_hr>16</th_hr>
 <xh_hr>16</xh_hr>
-<ic>3</ic>
+<ic>6</ic>
 <kbdi>749</kbdi>
-<sc>20</sc>
+<sc>24</sc>
 <ec>1</ec>
-<bi>10</bi>
+<bi>14</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>7</fl>
-<hrb>11</hrb>
+<fl>10</fl>
+<hrb>9</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
@@ -634,7 +634,7 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>13</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>3</mp>
@@ -647,7 +647,7 @@
 <ic>3</ic>
 <kbdi>712</kbdi>
 <sc>5</sc>
-<ec>12</ec>
+<ec>13</ec>
 <bi>20</bi>
 <sl>1 </sl>
 <lr>0</lr>
@@ -664,14 +664,14 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>7</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>3</mp>
 <msgc>7B3A2</msgc>
-<one_hr>17</one_hr>
+<one_hr>19</one_hr>
 <ten_hr>13</ten_hr>
-<hu_hr>15</hu_hr>
+<hu_hr>13</hu_hr>
 <th_hr>16</th_hr>
 <xh_hr>16</xh_hr>
 <ic>0</ic>
@@ -685,7 +685,7 @@
 <hr/>0
       <ho>0</ho>
 <fl>0</fl>
-<hrb>17</hrb>
+<hrb>19</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
@@ -694,28 +694,28 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>1</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>3</mp>
 <msgc>7B3A2</msgc>
-<one_hr>15</one_hr>
+<one_hr>16</one_hr>
 <ten_hr>12</ten_hr>
-<hu_hr>15</hu_hr>
+<hu_hr>13</hu_hr>
 <th_hr>16</th_hr>
 <xh_hr>16</xh_hr>
 <ic>0</ic>
 <kbdi>712</kbdi>
 <sc>0</sc>
-<ec>4</ec>
-<bi>2</bi>
+<ec>3</ec>
+<bi>0</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>1</fl>
-<hrb>15</hrb>
+<fl>0</fl>
+<hrb>16</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
@@ -724,7 +724,7 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>19</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>3</mp>
@@ -736,8 +736,8 @@
 <xh_hr>16</xh_hr>
 <ic>2</ic>
 <kbdi>712</kbdi>
-<sc>3</sc>
-<ec>10</ec>
+<sc>4</sc>
+<ec>11</ec>
 <bi>16</bi>
 <sl>1 </sl>
 <lr>0</lr>
@@ -754,7 +754,7 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>13</nfdr_tm>
 <nfdr_type>O</nfdr_type>
 <mp>3</mp>
@@ -764,17 +764,17 @@
 <hu_hr>13</hu_hr>
 <th_hr>16</th_hr>
 <xh_hr>16</xh_hr>
-<ic>31</ic>
+<ic>33</ic>
 <kbdi>749</kbdi>
 <sc>19</sc>
-<ec>52</ec>
-<bi>71</bi>
+<ec>54</ec>
+<bi>73</bi>
 <sl>5 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>50</fl>
+<fl>52</fl>
 <hrb>5</hrb>
 <wdy>60</wdy>
 <adj>V </adj>
@@ -784,28 +784,28 @@
 <sta_nm>LAS TABLAS</sta_nm>
 <latitude>  35.6565</latitude>
 <longitude>-120.9241</longitude>
-<nfdr_dt>12/24/2017</nfdr_dt>
+<nfdr_dt>12/25/2017</nfdr_dt>
 <nfdr_tm>9</nfdr_tm>
 <nfdr_type>S</nfdr_type>
 <mp>3</mp>
 <msgc>7B3A2</msgc>
-<one_hr>11</one_hr>
-<ten_hr>11</ten_hr>
+<one_hr>9</one_hr>
+<ten_hr>10</ten_hr>
 <hu_hr>13</hu_hr>
 <th_hr>16</th_hr>
 <xh_hr>16</xh_hr>
-<ic>3</ic>
+<ic>6</ic>
 <kbdi>749</kbdi>
 <sc>4</sc>
-<ec>11</ec>
-<bi>17</bi>
+<ec>17</ec>
+<bi>22</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>12</fl>
-<hrb>11</hrb>
+<fl>16</fl>
+<hrb>9</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
