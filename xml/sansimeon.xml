@@ -4,6 +4,96 @@
 <sta_nm>SLO COASTAL</sta_nm>
 <latitude>  35.6000</latitude>
 <longitude>-121.1142</longitude>
+<nfdr_dt>03/16/2018</nfdr_dt>
+<nfdr_tm>13</nfdr_tm>
+<nfdr_type>F</nfdr_type>
+<mp>1</mp>
+<msgc>7G2A2</msgc>
+<one_hr>18</one_hr>
+<ten_hr>16</ten_hr>
+<hu_hr>25</hu_hr>
+<th_hr>25</th_hr>
+<xh_hr>25</xh_hr>
+<ic>1</ic>
+<kbdi>56</kbdi>
+<sc>9</sc>
+<ec>5</ec>
+<bi>17</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>12</fl>
+<hrb>18</hrb>
+<wdy>60</wdy>
+<adj>L </adj>
+</row>
+<row num="2">
+<sta_id>44917</sta_id>
+<sta_nm>SLO COASTAL</sta_nm>
+<latitude>  35.6000</latitude>
+<longitude>-121.1142</longitude>
+<nfdr_dt>03/16/2018</nfdr_dt>
+<nfdr_tm>1</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G2A2</msgc>
+<one_hr>32</one_hr>
+<ten_hr>32</ten_hr>
+<hu_hr>24</hu_hr>
+<th_hr>24</th_hr>
+<xh_hr>24</xh_hr>
+<ic>0</ic>
+<kbdi>56</kbdi>
+<sc>0</sc>
+<ec>0</ec>
+<bi>0</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>0</fl>
+<hrb>32</hrb>
+<wdy>60</wdy>
+<adj>L </adj>
+</row>
+<row num="3">
+<sta_id>44917</sta_id>
+<sta_nm>SLO COASTAL</sta_nm>
+<latitude>  35.6000</latitude>
+<longitude>-121.1142</longitude>
+<nfdr_dt>03/16/2018</nfdr_dt>
+<nfdr_tm>7</nfdr_tm>
+<nfdr_type>N</nfdr_type>
+<mp>1</mp>
+<msgc>7G2A2</msgc>
+<one_hr>30</one_hr>
+<ten_hr>41</ten_hr>
+<hu_hr>24</hu_hr>
+<th_hr>24</th_hr>
+<xh_hr>24</xh_hr>
+<ic>0</ic>
+<kbdi>56</kbdi>
+<sc>0</sc>
+<ec>0</ec>
+<bi>0</bi>
+<sl>1 </sl>
+<lr>0</lr>
+<lo>0</lo>
+<hr/>0
+      <ho>0</ho>
+<fl>0</fl>
+<hrb>30</hrb>
+<wdy>60</wdy>
+<adj>L </adj>
+</row>
+<row num="4">
+<sta_id>44917</sta_id>
+<sta_nm>SLO COASTAL</sta_nm>
+<latitude>  35.6000</latitude>
+<longitude>-121.1142</longitude>
 <nfdr_dt>03/15/2018</nfdr_dt>
 <nfdr_tm>13</nfdr_tm>
 <nfdr_type>F</nfdr_type>
@@ -29,7 +119,7 @@
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
-<row num="2">
+<row num="5">
 <sta_id>44917</sta_id>
 <sta_nm>SLO COASTAL</sta_nm>
 <latitude>  35.6000</latitude>
@@ -59,7 +149,7 @@
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
-<row num="3">
+<row num="6">
 <sta_id>44917</sta_id>
 <sta_nm>SLO COASTAL</sta_nm>
 <latitude>  35.6000</latitude>
@@ -89,123 +179,33 @@
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
-<row num="4">
-<sta_id>44917</sta_id>
-<sta_nm>SLO COASTAL</sta_nm>
-<latitude>  35.6000</latitude>
-<longitude>-121.1142</longitude>
-<nfdr_dt>03/14/2018</nfdr_dt>
-<nfdr_tm>13</nfdr_tm>
-<nfdr_type>F</nfdr_type>
-<mp>1</mp>
-<msgc>7G2A2</msgc>
-<one_hr>21</one_hr>
-<ten_hr>34</ten_hr>
-<hu_hr>28</hu_hr>
-<th_hr>25</th_hr>
-<xh_hr>25</xh_hr>
-<ic>0</ic>
-<kbdi>91</kbdi>
-<sc>0</sc>
-<ec>0</ec>
-<bi>0</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>0</fl>
-<hrb>21</hrb>
-<wdy>60</wdy>
-<adj>L </adj>
-</row>
-<row num="5">
-<sta_id>44917</sta_id>
-<sta_nm>SLO COASTAL</sta_nm>
-<latitude>  35.6000</latitude>
-<longitude>-121.1142</longitude>
-<nfdr_dt>03/14/2018</nfdr_dt>
-<nfdr_tm>1</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>1</mp>
-<msgc>7G2A2</msgc>
-<one_hr>32</one_hr>
-<ten_hr>58</ten_hr>
-<hu_hr>27</hu_hr>
-<th_hr>23</th_hr>
-<xh_hr>23</xh_hr>
-<ic>0</ic>
-<kbdi>91</kbdi>
-<sc>0</sc>
-<ec>0</ec>
-<bi>0</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>0</fl>
-<hrb>32</hrb>
-<wdy>60</wdy>
-<adj>L </adj>
-</row>
-<row num="6">
-<sta_id>44917</sta_id>
-<sta_nm>SLO COASTAL</sta_nm>
-<latitude>  35.6000</latitude>
-<longitude>-121.1142</longitude>
-<nfdr_dt>03/14/2018</nfdr_dt>
-<nfdr_tm>7</nfdr_tm>
-<nfdr_type>N</nfdr_type>
-<mp>1</mp>
-<msgc>7G2A2</msgc>
-<one_hr>29</one_hr>
-<ten_hr>51</ten_hr>
-<hu_hr>27</hu_hr>
-<th_hr>23</th_hr>
-<xh_hr>23</xh_hr>
-<ic>0</ic>
-<kbdi>91</kbdi>
-<sc>0</sc>
-<ec>0</ec>
-<bi>0</bi>
-<sl>1 </sl>
-<lr>0</lr>
-<lo>0</lo>
-<hr/>0
-      <ho>0</ho>
-<fl>0</fl>
-<hrb>29</hrb>
-<wdy>60</wdy>
-<adj>L </adj>
-</row>
 <row num="7">
 <sta_id>44917</sta_id>
 <sta_nm>SLO COASTAL</sta_nm>
 <latitude>  35.6000</latitude>
 <longitude>-121.1142</longitude>
-<nfdr_dt>03/14/2018</nfdr_dt>
+<nfdr_dt>03/15/2018</nfdr_dt>
 <nfdr_tm>13</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>1</mp>
 <msgc>7G2A2</msgc>
-<one_hr>15</one_hr>
-<ten_hr>25</ten_hr>
-<hu_hr>26</hu_hr>
+<one_hr>13</one_hr>
+<ten_hr>15</ten_hr>
+<hu_hr>24</hu_hr>
 <th_hr>24</th_hr>
 <xh_hr>24</xh_hr>
-<ic>1</ic>
+<ic>3</ic>
 <kbdi>56</kbdi>
-<sc>5</sc>
-<ec>4</ec>
-<bi>12</bi>
+<sc>8</sc>
+<ec>10</ec>
+<bi>22</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>9</fl>
-<hrb>15</hrb>
+<fl>16</fl>
+<hrb>13</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
@@ -214,28 +214,28 @@
 <sta_nm>SLO COASTAL</sta_nm>
 <latitude>  35.6000</latitude>
 <longitude>-121.1142</longitude>
-<nfdr_dt>03/14/2018</nfdr_dt>
+<nfdr_dt>03/15/2018</nfdr_dt>
 <nfdr_tm>19</nfdr_tm>
 <nfdr_type>N</nfdr_type>
 <mp>1</mp>
 <msgc>7G2A2</msgc>
-<one_hr>20</one_hr>
-<ten_hr>18</ten_hr>
-<hu_hr>26</hu_hr>
+<one_hr>18</one_hr>
+<ten_hr>14</ten_hr>
+<hu_hr>24</hu_hr>
 <th_hr>24</th_hr>
 <xh_hr>24</xh_hr>
 <ic>0</ic>
 <kbdi>56</kbdi>
 <sc>3</sc>
-<ec>4</ec>
-<bi>10</bi>
+<ec>8</ec>
+<bi>13</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>7</fl>
-<hrb>20</hrb>
+<fl>9</fl>
+<hrb>18</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
@@ -244,28 +244,28 @@
 <sta_nm>SLO COASTAL</sta_nm>
 <latitude>  35.6000</latitude>
 <longitude>-121.1142</longitude>
-<nfdr_dt>03/14/2018</nfdr_dt>
+<nfdr_dt>03/15/2018</nfdr_dt>
 <nfdr_tm>13</nfdr_tm>
 <nfdr_type>O</nfdr_type>
 <mp>1</mp>
 <msgc>7G2A2</msgc>
-<one_hr>35</one_hr>
-<ten_hr>35</ten_hr>
-<hu_hr>26</hu_hr>
+<one_hr>10</one_hr>
+<ten_hr>13</ten_hr>
+<hu_hr>24</hu_hr>
 <th_hr>24</th_hr>
 <xh_hr>24</xh_hr>
-<ic>0</ic>
+<ic>11</ic>
 <kbdi>56</kbdi>
-<sc>0</sc>
-<ec>0</ec>
-<bi>0</bi>
+<sc>9</sc>
+<ec>11</ec>
+<bi>25</bi>
 <sl>1 </sl>
 <lr>0</lr>
 <lo>0</lo>
 <hr/>0
       <ho>0</ho>
-<fl>0</fl>
-<hrb>35</hrb>
+<fl>18</fl>
+<hrb>10</hrb>
 <wdy>60</wdy>
 <adj>L </adj>
 </row>
