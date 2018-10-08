@@ -6,7 +6,7 @@ Python script that scraps the adjective fire danger information
 #	2) Switched from using urlopen (deprecated) to urllib.request.urlopen
 #	3) Got the XML data to write to the file, using only lastablas data for the time being, but written in "windows-1252" format
 #	4) Moving to index.js file now to work on updateSmokey() 
-#	Additional Notes:
+#	Additional Notes: 
 #		example XML webpage we are querying: https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=44904&start=07OCT18&end=08OCT18&user=4e1
 #Necessary Libraries
 from bs4 import BeautifulSoup, NavigableString
