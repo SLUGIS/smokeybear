@@ -4,6 +4,7 @@
         nfdr_type  --> this should be matching to "O" but it is not! figure out why asap
                 notes: whitespace was not the only problem... just one of the problems
             okay finally got it working... had to create a variable O = "O" and now the comparison works...
+            fixed the github user account issue...
 */
 function init()
 {
