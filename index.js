@@ -32,7 +32,7 @@ function extreme()
 function getTimestamps(station) 
 {
     params = [ {name: "station", value: station}];
-    jQuery.get('./xml/timestamps', function(data, params) {
+    jQuery.get('./xml2/timestamps', function(data, params) {
         var stamps = data.split('\n');
         var times = ['', '', '', ''];
 		// stamps[0]/times[0]: La Panza
