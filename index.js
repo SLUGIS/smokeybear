@@ -1,4 +1,10 @@
-
+/*
+    The Latest:
+        msgc is the fire fuel mixture
+        nfdr_type  --> this should be matching to "O" but it is not! figure out why asap
+                notes: whitespace was not the only problem... just one of the problems
+            okay finally got it working... had to create a variable O = "O" and now the comparison works...
+*/
 function init()
 {
 	updateSmokey();
@@ -138,22 +144,22 @@ function updateSmokey()
 
     switch (value) {
         case "AG":
-            data = './xml/arroyogrande.xml';
+            data = './xml2/arroyogrande.xml';
             selected_area.innerHTML = 'Coastal Valley';
 			selected_city.innerHTML = 'Arroyo Grande';
             break;
         case "LP":
-            data = './xml/lapanza.xml';
+            data = './xml2/lapanza.xml';
             selected_area.innerHTML = 'Inland Valley';
 			selected_city.innerHTML = 'La Panza';
             break;
         case "LT":
-            data = './xml/lastablas.xml';
+            data = './xml2/lastablas.xml';
             selected_area.innerHTML = 'Coast Range';
 			selected_city.innerHTML = 'Las Tablas';
             break;
         case "SLC":
-            data = './xml/sansimeon.xml';
+            data = './xml2/sansimeon.xml';
             selected_area.innerHTML = 'San Luis Coast';
 			selected_city.innerHTML = 'San Simeon';
             break;
@@ -170,26 +176,43 @@ function readJSON(xml, station, city)
         { name: "station", value: station },
         { name:"city", value: city }
     ];
+    console.log("PARAMS OBJ = " + JSON.stringify(params));
     
     jQuery.get(xml, function(data, params)
     {
         var json = xmlToJson(data);
+        console.log(json);
         console.log("GOT JSON! FOR " + city);
         console.log(json.hasOwnProperty("nfdrs"));
+        console.log("station = " + station)
+        O = "O";
+        
         if (json.hasOwnProperty("nfdrs") && json.nfdrs.hasOwnProperty("row")) {
             console.log("row exists");
+            var reg1 = new RegExp('7G[a-zA-Z0-9]{3}$');
             for (var i = 0; i < json.nfdrs.row.length; i++) {
                 var curEntry = json.nfdrs.row[i];
-                if ((station == "LT" || station == "LP") && curEntry.nfdr_type['#text'] == "O" && curEntry.msgc['#text'] == "7G3A2") 
+                //console.log("curEntry.nfdr_type['#text'] = " + curEntry.nfdr_type['#text']);
+               //console.log("curEntry.nfdr_type['#text'] = " + curEntry.nfdr_type['#text']);
+               //console.log("[" + curEntry.nfdr_type['#text'].trim() + "]");
+                if((curEntry.nfdr_type['#text']).trim() == O)
+                    console.log("SUCCESSSSSSSS");
+                //console.log("curEntry.msgc['#text']" + curEntry.msgc['#text']);
+//                if ((station == "LT" || station == "LP") && curEntry.nfdr_type['#text'] == "O" && curEntry.msgc['#text'] == "7G3A2") 
+//                if ((station == "LT" || station == "LP") && curEntry.nfdr_type['#text'] == "O" && reg1.test(curEntry.msgc['#text'])) 
+                if ((station == "LT" || station == "LP") && curEntry.nfdr_type['#text'] == "O")
                 {
+                    console.log("SUCCESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
                     calc_rating(curEntry.sl['#text'], curEntry.ic['#text'], station);
                     console.log("Smokey's Adjective Fire Danger Rating for " + city + " is up to date.");
+                    console.log("curEntry.sl['#text'] = " + curEntry.sl['#text'] + "\n curEntry.ic['#text'] = " + curEntry.ic['#text']);
                     break;
                 }
                 if ((station == "SLC" || station == "AG") && curEntry.nfdr_type['#text'] == "O" && curEntry.msgc['#text'] == "7G2A2")
                 {
                     calc_rating(curEntry.sl['#text'], curEntry.ic['#text'], station);
                     console.log("Smokey's Adjective Fire Danger Rating for " + city + " is up to date.");
+                    console.log("curEntry.sl['#text'] = " + curEntry.sl['#text'] + "\n curEntry.ic['#text'] = " + curEntry.ic['#text']);
                     break;
                 }
             }
@@ -209,8 +232,8 @@ function readJSON(xml, station, city)
 function xmlToJson(xml)
 {
     // Create the return object
-	var obj = {};
-    
+    var obj = {};
+
         if (xml.nodeType == 1) { // element
             // do attributes
             if (xml.attributes.length > 0) {
