@@ -140,7 +140,7 @@ function updateSmokey()
     var selected_area = document.getElementById("selected_area");
     var selected_city = document.getElementById("selected_city");
     var value = selection.options[selection.selectedIndex].value;
-    console.log("Pre xml");
+
     switch (value) {
         case "AG":
             data = getXML(ARROYO_GRANDE);
@@ -181,7 +181,7 @@ function getXML(stationID){
 		const xml = await fetch(url)
                 .then(response => response);
 	
-		return xml;
+		return await xml;
 	}	 
 }
 
