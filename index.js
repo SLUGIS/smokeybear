@@ -1,4 +1,9 @@
 
+const LA_PANZA = 44904
+const LAS_TABLAS = 44914
+const ARROYO_GRANDE = 44915
+const SAN_SIMEON = 44917
+
 function init()
 {
 	/*
@@ -15,11 +20,7 @@ function init()
 	function(data,status){console.log(data);});
 	
 	*/
-	var l = "";
-	fetch('https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=44904&start=8-Sep-19&end=9-Sep-19&user=4e1', {
-  	referrer: 'no-referrer', mode: 'no-cors'}).then(response => l=response);
-	
-	console.log(l);
+
 	
 	updateSmokey();
 }
@@ -158,31 +159,43 @@ function updateSmokey()
 
     switch (value) {
         case "AG":
-            data = './xml/arroyogrande.xml';
+            data = getXML(ARROYO_GRANDE);
             selected_area.innerHTML = 'Coastal Valley';
 			selected_city.innerHTML = 'Arroyo Grande';
+		    
             break;
         case "LP":
-            data = './xml/lapanza.xml';
+            data = getXML(LA_PANZA);
             selected_area.innerHTML = 'Inland Valley';
 			selected_city.innerHTML = 'La Panza';
             break;
         case "LT":
-            data = './xml/lastablas.xml';
+            data = getXML(LAS_TABLAS);
             selected_area.innerHTML = 'Coast Range';
 			selected_city.innerHTML = 'Las Tablas';
             break;
         case "SLC":
-            data = './xml/sansimeon.xml';
+            data = getXML(SAN_SIMEON);
             selected_area.innerHTML = 'San Luis Coast';
 			selected_city.innerHTML = 'San Simeon';
             break;
         default:
             console.log("Something went wrong updating smokey.\n");
 	}
+	
+    	
     getTimestamps(value);
     readJSON(data, value, selected_city.innerHTML);
 }
+
+function getXML(stationID){
+	const start = "8-Sep-19";
+	const end = "9-Sep-19";
+	var url = `https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=${stationID}&start=${start}&end=${end}&user=4e1`;
+	return fetch(url, {mode: "no-cors"}).then(response => response.JSON()); 
+	
+}
+
 
 function readJSON(xml, station, city) 
 {
