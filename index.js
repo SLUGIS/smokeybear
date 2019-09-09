@@ -10,9 +10,14 @@ function init()
 	Http.onreadystatechange = (e) => {
 	  console.log(Http.responseText)
 	}
-	*/
+	
 	$.get("https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=44904&start=8-Sep-19&end=9-Sep-19&user=4e1",
 	function(data,status){console.log(data);});
+	
+	*/
+	
+	fetch('https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=44904&start=8-Sep-19&end=9-Sep-19&user=4e1', {
+  	referrer: 'no-referrer' }).then(response => console.log(response.json()));
 	updateSmokey();
 }
 
