@@ -179,9 +179,9 @@ function getXML(stationID){
 	
 	const request = async () => {
 		const xml = await fetch(url)
-                .then(response => response);
+                .then(response => return response);
 	
-		return xml;
+		
 	}	 
 }
 
