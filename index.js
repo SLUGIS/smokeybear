@@ -15,9 +15,12 @@ function init()
 	function(data,status){console.log(data);});
 	
 	*/
-	
+	var l = "";
 	fetch('https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=44904&start=8-Sep-19&end=9-Sep-19&user=4e1', {
-  	referrer: 'no-referrer', mode: 'no-cors'}).then(response => console.log(response));
+  	referrer: 'no-referrer', mode: 'no-cors'}).then(response => l=response);
+	
+	console.log(l);
+	
 	updateSmokey();
 }
 
