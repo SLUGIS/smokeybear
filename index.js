@@ -1,6 +1,12 @@
 
 function init()
 {
+	var xmlHttp = new XMLHttpRequest();
+	xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+	xmlHttp.send( null );
+	var xml = xmlHttp.responseText;
+	console.log(xml)
+	
 	updateSmokey();
 }
 
