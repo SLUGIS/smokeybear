@@ -167,7 +167,7 @@ function updateSmokey()
             console.log("Something went wrong updating smokey.\n");
 	}
 	
-    console.log(data);
+    console.log("Data: "+data);
     getTimestamps(value);
     readJSON(data, value, selected_city.innerHTML);
 }
