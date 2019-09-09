@@ -172,12 +172,16 @@ function updateSmokey()
     readJSON(data, value, selected_city.innerHTML);
 }
 
-async function getXML(stationID){
+function getXML(stationID){
 	const start = "8-Sep-19";
 	const end = "9-Sep-19";
 	var url = `https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=${stationID}&start=${start}&end=${end}&user=4e1`;
-	return await fetch(url, {mode: "no-cors"}); 
 	
+	const xml = await fetch('https://api.com/values/1')
+                .then(response => response);
+	
+	return xml
+	 
 }
 
 
