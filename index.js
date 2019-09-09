@@ -5,24 +5,8 @@ const ARROYO_GRANDE = 44915
 const SAN_SIMEON = 44917
 
 function init()
-{
-	/*
-	const Http = new XMLHttpRequest();
-	const url='https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=44904&start=8-Sep-19&end=9-Sep-19&user=4e1';
-	Http.open("GET", url);
-	Http.send();
-
-	Http.onreadystatechange = (e) => {
-	  console.log(Http.responseText)
-	}
-	
-	$.get("https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=44904&start=8-Sep-19&end=9-Sep-19&user=4e1",
-	function(data,status){console.log(data);});
-	
-	*/
-
-	
-	updateSmokey();
+{	
+    updateSmokey();
 }
 
 function low() 
@@ -156,7 +140,7 @@ function updateSmokey()
     var selected_area = document.getElementById("selected_area");
     var selected_city = document.getElementById("selected_city");
     var value = selection.options[selection.selectedIndex].value;
-
+    console.log("Pre xml");
     switch (value) {
         case "AG":
             data = getXML(ARROYO_GRANDE);
