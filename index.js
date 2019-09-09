@@ -195,7 +195,7 @@ function readJSON(xml, station, city)
     
     jQuery.get(xml, function(data, params)
     {
-        var json = xmlToJson(data);
+        var json = xmlToJson(xml);
         console.log("GOT JSON! FOR " + city);
         console.log(json.hasOwnProperty("nfdrs"));
         if (json.hasOwnProperty("nfdrs") && json.nfdrs.hasOwnProperty("row")) {
