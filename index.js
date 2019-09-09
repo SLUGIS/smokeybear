@@ -2,7 +2,7 @@
 function init()
 {
 	var xmlHttp = new XMLHttpRequest();
-	xmlHttp.open( "GET", "https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=44904&start=8-Sep-19&end=9-Sep-19&user=4e1", false ); // false for synchronous request
+	xmlHttp.open( "GET", "https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=44904&start=8-Sep-19&end=9-Sep-19&user=4e1", true ); // false for synchronous request
 	xmlHttp.send( null );
 	var xml = xmlHttp.responseText;
 	console.log(xml)
