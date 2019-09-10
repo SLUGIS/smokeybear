@@ -181,7 +181,7 @@ function getXML(stationID){
 
 async function fetchXML(url) {
    const res = await fetch(url,{mode: "no-cors"});
-   const data = await res.bodyl
+   const data = await res.body;
    return data;
 }
 
