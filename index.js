@@ -178,8 +178,8 @@ function getXML(stationID){
 	var url = `https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=${stationID}&start=${start}&end=${end}&user=4e1`;
 	
 	const request = async () => {
-		const xml = await fetch(url)
-                .then(response => return response);
+		const xml = await fetch(url);
+                return xml;
 	
 		
 	}	 
