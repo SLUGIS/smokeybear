@@ -1,7 +1,7 @@
 
 const LA_PANZA = 44904
 const LAS_TABLAS = 44914
-const ARROYO_GRANDE = 44915
+const SLO = 44915
 const SAN_SIMEON = 44917
 
 function init()
@@ -42,7 +42,7 @@ function getTimestamps(station)
         var times = ['', '', '', ''];
 		// stamps[0]/times[0]: La Panza
 		// stamps[1]/times[0]: Las Tablas
-		// stamps[2]/times[0]: Arroyo Grande
+		// stamps[2]/times[0Grande
 		// stamps[3]/times[0]: San Simeon
 
 		/* Current time, in seconds */
@@ -143,9 +143,9 @@ function updateSmokey()
 
     switch (value) {
         case "AG":
-            data = getXML(ARROYO_GRANDE);
+            data = getXML(SLO);
             selected_area.innerHTML = 'Coastal Valley';
-			selected_city.innerHTML = 'Arroyo Grande';
+			selected_city.innerHTML = 'San Luis Obispo';
 		    
             break;
         case "LP":
