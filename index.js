@@ -167,7 +167,6 @@ function updateSmokey()
             console.log("Something went wrong updating smokey.\n");
 	}
 	
-    console.log("Data: "+data);
     getTimestamps(value);
     readJSON(data, value, selected_city.innerHTML);
 }
@@ -197,6 +196,8 @@ function readJSON(xml, station, city)
     jQuery.get(xml, function(data, params)
     {
         var json = xmlToJson(xml);
+	console.log("Data: "+json);
+
         console.log("GOT JSON! FOR " + city);
         console.log(json.hasOwnProperty("nfdrs"));
         if (json.hasOwnProperty("nfdrs") && json.nfdrs.hasOwnProperty("row")) {
