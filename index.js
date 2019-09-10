@@ -180,8 +180,7 @@ function getXML(stationID){
 	const request = async () => {
 		const xml = await fetch(url,{mode: "no-cors"});
 
-		console.log(xml);
-		
+		await return xml;
 	}	 
 }
 
