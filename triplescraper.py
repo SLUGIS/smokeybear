@@ -17,8 +17,8 @@ todaysdate = today.strftime('%d') + today.strftime('%b').upper() + today.strftim
 yesterday = datetime.date.today() - datetime.timedelta(days=1)
 yesterdaysdate = yesterday.strftime('%d') + yesterday.strftime('%b').upper() + yesterday.strftime('%y')
 
-#lapanza = "44904"
-#lastablas = "44914"
+#lapanza =  "44914"
+#lastablas = "44904"
 #arroyogrande = "44915"
 #sansimeon = "44917"
 
