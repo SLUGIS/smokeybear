@@ -428,6 +428,10 @@ fieldset[disabled] .btn-link:focus {
   content: "\e104";
 }
 
+.glyphicon-camera:before {
+  content: "\e059";
+}
+
 .glyphicon-signal:before {
   content: "\e018";
 }
