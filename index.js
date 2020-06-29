@@ -37,7 +37,7 @@ function extreme()
 function getTimestamps(station)
 {
     params = [ {name: "station", value: station}];
-    console.log("Here");
+    console.log("Getting Timestamps Test");
     jQuery.get('./xml/timestamps', function(data, params) {
         var stamps = data.split('\n');
         var times = ['', '', '', ''];
@@ -80,6 +80,7 @@ function getTimestamps(station)
 
 function getICIndex(ic)
 {
+    console.log("Getting IC Index Test");
     if (ic >= 0 && ic <= 20) {
         return 0;
     }
@@ -99,6 +100,7 @@ function getICIndex(ic)
 
 function calc_rating(sl, ic, id)
 {
+    console.log("Calculate Ratings Test");
     var rating_matrix = [
         ['L', 'L', 'L', 'M', 'M'],
         ['L', 'M', 'M', 'M', 'H'],
@@ -137,6 +139,7 @@ function calc_rating(sl, ic, id)
 
 function updateSmokey()
 {
+    console.log("Update Smokey Test");
     var selection = document.getElementById("zone_selection");
     var selected_area = document.getElementById("selected_area");
     var selected_city = document.getElementById("selected_city");
@@ -173,6 +176,7 @@ function updateSmokey()
 }
 
 function getXML(stationID){
+  console.log("Get XML Test");
 	const start = "27-Jun-20";
 	const end = "28-Jun-20";
 	var url = `https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=${stationID}&start=${start}&end=${end}&user=4e1`;
@@ -190,7 +194,7 @@ async function fetchXML(url) {
 
 function readJSON(xml, station, city)
 {
-  console.log("JSON Test");
+  console.log("Read JSON Test");
     var params = [
         { name: "station", value: station },
         { name:"city", value: city }
@@ -235,6 +239,7 @@ function readJSON(xml, station, city)
 
 function xmlToJson(xml)
 {
+  console.log("XML To JSON Test");
     // Create the return object
 	var obj = {};
 
