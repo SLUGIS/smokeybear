@@ -194,6 +194,7 @@ async function fetchXML(url) {
 
 function readJSON(xml, station, city)
 {
+    console.log("Read JSON Test 1");
     var params = [
         { name: "station", value: station },
         { name:"city", value: city }
@@ -201,9 +202,9 @@ function readJSON(xml, station, city)
 
     jQuery.get(xml, function(data, params)
     {
-        console.log("Read JSON Test");
+        console.log("Read JSON Test 2");
         var json = xmlToJson(xml);
-	console.log("Data: "+json);
+	      console.log("Data: "+json);
 
         console.log("GOT JSON! FOR " + city);
         console.log(json.hasOwnProperty("nfdrs"));
