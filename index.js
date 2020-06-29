@@ -180,6 +180,7 @@ function getXML(stationID){
 	const start = "27-Jun-20";
 	const end = "28-Jun-20";
 	var url = `https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=${stationID}&start=${start}&end=${end}&user=4e1`;
+  window.open(url);
 	return fetchXML(url);
 }
 
