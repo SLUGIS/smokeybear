@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="https://dl.dropboxusercontent.com/s/yak4tuwl9um0h8c/Div6Logo_PNG_16x16.png?dl=0" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <meta charset="utf-8">
+    <title>Adjective Fire Danger</title>
+    <meta name="description" content="Current fire danger for SLO County">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+
+  <body onload="init()">
+      <h1>Adjective Fire Danger</h1>
+      <div id="navigation" style="clear:both; width:100%;">
+      <!-- CODE HERE FOR NAVIGATION -->
+        <ul class="nav navbar-nav">
+            <a class="btn btn-default btn-default navbar-btn" href="http://slocountyfire.org/BurnDayStatus/"><span class="glyphicon glyphicon-fire"></span>&nbsp;Burn Day Status</a>
+            <a class="btn btn-default btn-default navbar-btn" href="https://slu.carto.com/viz/9a67969c-2532-4619-9269-a96c7d55a041/public_map"><span class="glyphicon glyphicon-signal"></span>&nbsp;Dispatch Levels</a>
+            <a class="btn btn-default btn-default navbar-btn" href="http://slocountyfire.org/intelreport/"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;Intel Report</a>
+            <a class="btn btn-default btn-default navbar-btn" href="http://slocountyfire.org/caltransCCTV/"><span class="glyphicon glyphicon-camera"></span>&nbsp;Traffic Cameras</a>
+            <a class="btn btn-default btn-default navbar-btn" href="http://slocountyfire.org/GISInfo/"><span class="glyphicon glyphicon-tree-conifer"></span>&nbsp;GIS Info</a>
+          </ul>
+      </div>
+
+      <div id="div_selection_box">
+        <select id="zone_selection" onchange="updateSmokey();">
+          <option value="AG" selected="selected">Coastal Valley</option>
+          <option value="LP" >Inland Valley</option>
+          <option value="LT">Coastal Range</option>
+          <option value="SLC">San Luis Coast</option>
+        </select>
+      </div>
+
+      <div id="threestations" style="clear:both; width: 100%">
+          <div id="selected_div" class="onethird">
+            <h2 id="selected_area">Coastal Valley</h2>
+            <img id="smokey" class="smokey" src="./img/low.png" />
+            <h3 id="selected_city">Arroyo Grande</h3>
+            <p id="update_status" class="specialnotes">timestamp</p>
+          </div>
+      </div>
+
+      <div style="clear:both; text-align:center; display:block; width:100%;">
+      <br /><br />
+         This site pulls data from the WIMS Data Exchange Facility for stations at the Coastal Valley, Inland Valley, and Coastal Range, then calculates the Adjective Fire Danger Rating from the Ignition Component and Staffing Levels of those stations.
+         <br /><br />
+         Smokey points to the Adjective Fire Danger Rating calculated for each station.
+         <br /><br />
+      </div>
+      <div style="clear:both; text-align:left; display:block; width:100%;">
+         <small>In March 1974, Forest Service, BLM, and State Forestry representatives established a standard fire-danger rating system designed to communicate the relative severity of the current fire danger situation to the public.
+         <br>
+         <br>The “adjective fire danger” is analogous to “Smokey’s arm” or other media used to convey fire danger to the public. The “adjective fire danger” is based on a combination of the staffing level, which can be driven by any NFDRS output; and the ignition component (the probability that a firebrand would cause a wildland fire requiring some form of suppression response). Typically, the “adjective fire danger” is in the “moderate” and “high” ranges about 70 percent of the time during the fire season. “Low” occurs about 25 percent of the time, with the remainder of the days in the “very high” or “extreme” range.
+         <br>
+         <br>This adjective class should only be utilized for public information. Staffing level (SL) is used for in-house fire readiness.
+         <br>
+         <br>Using the IC, the SL, and the adjective fire-danger matrix, WIMS determines the fire-danger rating (R). Adjective fire-danger is expressed as one of five levels
+         <br>
+         <br>• Low (L) or Green
+         <br>• Moderate (M) or Blue
+         <br>• High (H) or Yellow
+         <br>• Very High (VH) or Orange
+         <br>• Extreme (E) or Red
+         <br>
+         <br>The table below shows the adjective fire-danger matrix. The NFDRS output used for the Staffing Index is a management decision. The Staffing Level is based on that Staffing Index. The other half of the matrix is always the Ignition Component(IC).</small>
+         <br>
+         <div style="text-align:center;">
+         <img src="https://dl.dropboxusercontent.com/s/921ysjr669o8wq3/AFDR-matrix.png?dl=0">
+         </div>
+      <br>
+      </div>
+      <div style="clear:both; text-align:center; display:block; width:100%;">
+         Source and for more information, please refer to pages 10-11 here: <a href="https://fam.nwcg.gov/fam-web/pocketcards/wims_ug_final/Appx_E_NFDRS_Technical_Reference.pdf">Appendix E NFDRS Technical Reference</a> [pdf]
+      </div>
+  </body>
+</html>
