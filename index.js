@@ -194,7 +194,6 @@ async function fetchXML(url) {
 
 function readJSON(xml, station, city)
 {
-  console.log("Read JSON Test");
     var params = [
         { name: "station", value: station },
         { name:"city", value: city }
@@ -202,6 +201,7 @@ function readJSON(xml, station, city)
 
     jQuery.get(xml, function(data, params)
     {
+        console.log("Read JSON Test");
         var json = xmlToJson(xml);
 	console.log("Data: "+json);
 
