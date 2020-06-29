@@ -5,38 +5,39 @@ const SLO = 44915
 const SAN_SIMEON = 44917
 
 function init()
-{	
+{
     updateSmokey();
 }
 
-function low() 
+function low()
 {
     document.getElementById("smokey").setAttribute('src', './img/low.png');
 }
 
-function moderate() 
+function moderate()
 {
     document.getElementById("smokey").setAttribute('src', './img/moderate.png');
 }
 
-function high() 
+function high()
 {
     document.getElementById("smokey").setAttribute('src', './img/high.png');
 }
 
-function veryhigh() 
+function veryhigh()
 {
     document.getElementById("smokey").setAttribute('src', './img/veryhigh.png');
 }
 
-function extreme() 
+function extreme()
 {
     document.getElementById("smokey").setAttribute('src', './img/extreme.png');
 }
 
-function getTimestamps(station) 
+function getTimestamps(station)
 {
     params = [ {name: "station", value: station}];
+    console.log("Here");
     jQuery.get('./xml/timestamps', function(data, params) {
         var stamps = data.split('\n');
         var times = ['', '', '', ''];
@@ -66,18 +67,18 @@ function getTimestamps(station)
 			if (hours > 1) { //plurality
 				units += "s";
 			}
-			
+
 			times[i] = hours + units;
         }
 
         if (station == "LP") document.getElementById("update_status").innerHTML = "Last updated " + times[0] + " ago";
         if (station == "LT") document.getElementById("update_status").innerHTML = "Last updated " + times[1] + " ago";
         if (station == "AG") document.getElementById("update_status").innerHTML = "Last updated " + times[2] + " ago";
-        if (station == "SLC") document.getElementById("update_status").innerHTML = "Last updated " + times[3] + " ago";   
+        if (station == "SLC") document.getElementById("update_status").innerHTML = "Last updated " + times[3] + " ago";
     });
 }
 
-function getICIndex(ic) 
+function getICIndex(ic)
 {
     if (ic >= 0 && ic <= 20) {
         return 0;
@@ -96,7 +97,7 @@ function getICIndex(ic)
     }
 }
 
-function calc_rating(sl, ic, id) 
+function calc_rating(sl, ic, id)
 {
     var rating_matrix = [
         ['L', 'L', 'L', 'M', 'M'],
@@ -134,7 +135,7 @@ function calc_rating(sl, ic, id)
     console.log("Finished calcing rating.\n");
 }
 
-function updateSmokey() 
+function updateSmokey()
 {
     var selection = document.getElementById("zone_selection");
     var selected_area = document.getElementById("selected_area");
@@ -146,7 +147,7 @@ function updateSmokey()
             data = getXML(SLO);
             selected_area.innerHTML = 'Coastal Valley';
 			selected_city.innerHTML = 'San Luis Obispo';
-		    
+
             break;
         case "LP":
             data = getXML(LA_PANZA);
@@ -166,19 +167,20 @@ function updateSmokey()
         default:
             console.log("Something went wrong updating smokey.\n");
 	}
-	
+
     getTimestamps(value);
     readJSON(data, value, selected_city.innerHTML);
 }
 
 function getXML(stationID){
-	const start = "8-Sep-19";
-	const end = "9-Sep-19";
+	const start = "27-Jun-20";
+	const end = "28-Jun-20";
 	var url = `https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=${stationID}&start=${start}&end=${end}&user=4e1`;
-	return fetchXML(url);	 
+	return fetchXML(url);
 }
 
 async function fetchXML(url) {
+   console.log("Fetch XML Test");
    const res = await fetch(url,{mode: "no-cors"});
    const data = await res.body;
    return data;
@@ -186,13 +188,14 @@ async function fetchXML(url) {
 
 
 
-function readJSON(xml, station, city) 
+function readJSON(xml, station, city)
 {
+  console.log("JSON Test");
     var params = [
         { name: "station", value: station },
         { name:"city", value: city }
     ];
-    
+
     jQuery.get(xml, function(data, params)
     {
         var json = xmlToJson(xml);
@@ -204,7 +207,7 @@ function readJSON(xml, station, city)
             console.log("row exists");
             for (var i = 0; i < json.nfdrs.row.length; i++) {
                 var curEntry = json.nfdrs.row[i];
-                if ((station == "LT" || station == "LP") && curEntry.nfdr_type['#text'] == "O" && curEntry.msgc['#text'] == "7G3A2") 
+                if ((station == "LT" || station == "LP") && curEntry.nfdr_type['#text'] == "O" && curEntry.msgc['#text'] == "7G3A2")
                 {
                     calc_rating(curEntry.sl['#text'], curEntry.ic['#text'], station);
                     console.log("Smokey's Adjective Fire Danger Rating for " + city + " is up to date.");
@@ -234,7 +237,7 @@ function xmlToJson(xml)
 {
     // Create the return object
 	var obj = {};
-    
+
         if (xml.nodeType == 1) { // element
             // do attributes
             if (xml.attributes.length > 0) {
@@ -247,7 +250,7 @@ function xmlToJson(xml)
         } else if (xml.nodeType == 3) { // text
             obj = xml.nodeValue;
         }
-    
+
         // do children
         if (xml.hasChildNodes()) {
             for(var i = 0; i < xml.childNodes.length; i++) {
